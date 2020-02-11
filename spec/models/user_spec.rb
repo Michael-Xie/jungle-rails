@@ -16,7 +16,7 @@ RSpec.describe User, type: :model do
   it "should have unique emails in database" do
     user1 = User.new({email: "test@test.com", password: "test", password_confirmation: "test", first_name: "first", last_name: "last"})
     user1.save()
-    user2 = User.new({email: "test@test.com", password: "hi", password_confirmation: "hi", first_name: "first", last_name: "last"})
+    user2 = User.new({email: "TEST@test.com", password: "hi", password_confirmation: "hi", first_name: "first", last_name: "last"})
     # user2.save()
     expect(user2).to_not be_valid
     expect(user2.errors.full_messages).to include("Email has already been taken")
