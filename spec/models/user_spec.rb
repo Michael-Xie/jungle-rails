@@ -32,5 +32,19 @@ RSpec.describe User, type: :model do
   end
   describe '.authenticate_with_credentials' do
     # examples for this class method here
+    it "should return user information when user's credential is authenticated" do
+      expected_user = User.new(first_name:"first", last_name:"last", password:"fiverfiver", password_confirmation:"fiverfiver", email:"tester@test.com")
+      expected_user.save
+      actual_user = expected_user.authenticate_with_credentials("tester@test.com","fiverfiver")
+      expect(actual_user).to eq(expected_user)
+    end
+
+    it "should not return user information when user's credential is not authenticated" do
+      expected_user = User.new(first_name:"first", last_name:"last", password:"fiverfiver", password_confirmation:"fiverfiver", email:"tester@test.com")
+      expected_user.save
+      actual_user = expected_user.authenticate_with_credentials("tester@test.com","fiverfiver123")
+      expect(actual_user).to_not eq(expected_user)
+    end
+
   end
 end
