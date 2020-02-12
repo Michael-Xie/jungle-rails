@@ -3,10 +3,10 @@
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
 ## Final Product
-!["Screenshot of register page"](https://github.com/Michael-Xie/tinyapp/blob/master/docs/register-page.png)
-!["Screenshot of URLs page"](https://github.com/Michael-Xie/tinyapp/blob/master/docs/urls-page.png)
-!["Screenshot of to create a new URL page"](https://github.com/Michael-Xie/tinyapp/blob/master/docs/new-url-page.png)
-!["Screenshot of a specific URL page"](https://github.com/Michael-Xie/tinyapp/blob/master/docs/url-show-page.png)
+!["Home page with all Products"](https://github.com/Michael-Xie/jungle-rails/blob/master/docs/products.png)
+!["Cart"](https://github.com/Michael-Xie/jungle-rails/blob/master/docs/cart.png)
+!["Admin authentication"](https://github.com/Michael-Xie/jungle-rails/blob/master/docs/admin_authenticate.png)
+!["Admin Products"](https://github.com/Michael-Xie/jungle-rails/blob/master/docs/admin_products.png)
 
 ## Setup
 
