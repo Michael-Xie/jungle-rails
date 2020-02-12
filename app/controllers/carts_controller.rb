@@ -2,6 +2,11 @@ class CartsController < ApplicationController
   # before_filter :authorize
 
   def show
+    if (session[:user_id])
+      @user = User.find(session[:user_id]) 
+    else
+      @user = User.new(first_name: "", last_name: "", email: "", password:"testing", password_confirmation:"testing")
+    end
   end
 
   def add_item
