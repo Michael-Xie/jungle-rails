@@ -2,6 +2,11 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Final Product
+!["Screenshot of register page"](https://github.com/Michael-Xie/tinyapp/blob/master/docs/register-page.png)
+!["Screenshot of URLs page"](https://github.com/Michael-Xie/tinyapp/blob/master/docs/urls-page.png)
+!["Screenshot of to create a new URL page"](https://github.com/Michael-Xie/tinyapp/blob/master/docs/new-url-page.png)
+!["Screenshot of a specific URL page"](https://github.com/Michael-Xie/tinyapp/blob/master/docs/url-show-page.png)
 
 ## Setup
 
